@@ -1,0 +1,164 @@
+/*Opmaak van de navigatieweg van de gebruiker, breadcrumbs*/
+#opmaakbreadcrumbs{
+	background-color: #1C9395;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+ul.opmaakbreadcrumbs {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumbs li {
+  display: inline;
+  font-family: avenir;
+  font-size: 18px;
+}
+ul.breadcrumbs li+li:before {
+  padding: 8px;
+  color: white;
+  content: "/\00a0";
+}
+ul.breadcrumbs li a {
+  color: white;
+  text-decoration: none;
+}
+ul.breadcrumbs li a:hover {
+  color:#1C9395;
+  text-decoration: underline;
+}
+
+.color{
+  font-family: avenir;
+  font-size: 18px;
+  color: #C1C5CE;
+}
+
+/*Opmaak afbeelding van onderzoeksthema*/
+.afbeeldingmetuitlegonderzoek{
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+/*Opmaak van het element h1 van het onderzoeksthema*/
+.onderzoeksthema {
+  position: absolute;
+  top: 0px;
+  padding-right:100px;
+  margin-left: 240px;
+  padding-top: 30px;
+  color:#1C9395;
+  font-family: avenir;
+  font-size: 48px;
+}
+
+/*Opmaak van het element h2 van het onderzoeksthema*/
+.evenementtekst{
+  margin-right: 600px;
+  margin-left: 600px;
+  color: white;
+  font-family: helvetica;
+  font-size: 32px;
+  margin-top:-300px; 
+}
+
+/*Opmaak gehele section evenement*/
+#evenement{
+  background-color: #6C8289;
+  width: 1200px;
+  height: 1200px;
+  margin-left: 110px;
+  border-radius: 5px;
+  margin-top: 300px;
+}
+
+/*Opmaak div evenementen*/
+#evenementrevalidatie{
+  background-color: #C1C5CE;
+  width: 1000px;
+  height: 550px;
+  margin-left: 110px;
+  border-radius: 5px;
+  float: left;
+  margin-top: 40px;
+}
+
+h1{
+  font-family: avenir;
+  font-size: 48px;
+  color:#1C9395;
+  margin: 0px;
+  margin-left: 40px;
+}
+
+h2{
+  font-family: helvetica;
+  font-size: 28px;
+  color:#1C9395;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+h3{
+  font-family: helvetica;
+  font-size: 20px;
+  color: #1C9395;
+}
+
+p{
+  color:white;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/*Opmaak datum en tijd van de evenementen van revalidatie*/
+.opmaakrevalidatie{
+  float: left;
+  margin-right: 10px;
+}
+
+/*Opmaak div evenementen uitleg evenementen*/
+.opmaakrevalidatie2{
+  margin-right: 300px;
+  margin-left: 250px;
+}
+
+/*Opmaak div evenementen inschrijfbuttons*/
+.opmaakrevalidatie3{
+  float: right;
+  margin-top: -450px;
+}
+
+/*Opmaak van de inschrijfbutton*/
+.buttonopmaakinschrijven{
+  background-color: #1C9395;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: avenir;
+  font-size:14px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 10px;
+  margin-right: 100px;
+  
+}
+.margin{
+  margin-top: 100px;
+}
+
+/*Opmaak div evenementen tech for health*/
+#evenementtechforhealth{
+  background-color: #C1C5CE;
+  width: 1000px;
+  height: 550px;
+  margin-left: 110px;
+  border-radius: 5px;
+  float: left;
+  margin-top: 25px;
+}
+
+

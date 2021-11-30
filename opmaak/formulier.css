@@ -1,0 +1,141 @@
+/*Opmaak van de navigatieweg gebruiker: breadcrumbs*/
+#opmaakbreadcrumbs{
+	background-color: #1C9395;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+ul.opmaakbreadcrumbs {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumbs li {
+  display: inline;
+  font-family: avenir;
+  font-size: 18px;
+}
+ul.breadcrumbs li+li:before {
+  padding: 8px;
+  color: white;
+  content: "/\00a0";
+}
+ul.breadcrumbs li a {
+  color: white;
+  text-decoration: none;
+}
+ul.breadcrumbs li a:hover {
+  color:#1C9395;
+  text-decoration: underline;
+}
+
+.color{
+  font-family: avenir;
+  font-size: 18px;
+  color: #C1C5CE;
+}
+
+/*opmaak achtergrond afbeelding bijpassend bij evenement*/ 
+.afbeeldingformulier{
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+/*Opmaak tekst datum evenement*/
+.evenementbijform{
+  position: absolute;
+  top: 0px;
+  margin-top:30px;
+  margin-left: 30px;
+  color:#1C9395;
+  font-family: avenir;
+  font-size: 48px;
+}
+
+/*Opmaak tekst uitleg informatie evenement*/
+.uitlegonderzoek{
+  position: absolute;
+  top: 200px;
+  margin-left: 30px;
+  margin-right: 1000px;
+  color: #6C8289;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+
+/*Opmaak locatie tekst evenement*/ 
+.locatie{
+  position: absolute;
+  top: 370px;
+  margin-left: 30px;
+  margin-right: 1000px;
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*Opmaak tekst tijd evenement*/
+.tijd{
+  position: absolute;
+  top: 370px;
+  margin-left: 200px;
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*Opmaak omlijning formulier*/
+#formulierborder{
+  background-color: #C1C5CE;
+  width: 500px;
+  height: 450px;
+  margin-left: 480px;
+  margin-right: 480px;
+  border-radius: 5px;
+}
+
+h1{
+  font-family: avenir;
+  font-size: 48px;
+  color:#1C9395;
+  margin: 0px;
+  margin-left: 0px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/*Opmaak tekst formuliervelden*/
+.formulier1{
+  font-family: helvetica;
+  width: 250px;
+  float: right;
+  margin-top: 2px;
+  margin-right: 20px;
+}
+
+/*Opmaak gehele formulier */
+#formuliergeheel{
+  font-family: helvetica;
+  font-size:18px;
+  margin-left:20px;
+  margin-right: 5px;
+}
+
+/*Opmaak bevestigingsbutton*/
+.button{
+  font-family: avenir;
+  font-size: 20px;
+  padding: 8px;
+  color:#1C9395;
+  text-decoration: none;
+  background-color: #929BA2;
+  border-radius: 5px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 170px;
+}

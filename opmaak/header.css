@@ -1,0 +1,116 @@
+/*Opmaak achtergrond*/
+body{
+	margin: 0px;
+	background-color: white;
+}
+
+/*Opmaak zoekbalk*/
+.zoeken{
+  width: 180px;
+  height:40px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('search.jpeg');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+ -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/*Opmaak zoekbalk*/
+#opmaakZoekbalk{
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+/*Opmaak kleuren achtergrond header*/
+#gradient{
+  height: 150px;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(white, #1C9395); /* Standard syntax (must be last) */
+  width: auto;
+  margin: 0px auto;
+}
+
+/*Speciale margin zodat menubalk recht blijft ivm zoekbalk*/
+#special{
+	margin-top: 61px;
+}
+
+/*Opmaak achtergrond header*/
+header{
+	background-color: #1C9395; 
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 230px;
+}
+
+header::after{
+	content:'';
+	display: table;
+	clear:both;
+}
+
+/*Opmaak logo */
+#logoOpmaak{
+	float:left;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 40px;
+}
+
+/*navigatie menubalk */
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+/*Opmaak zonder enige functie*/
+nav ul li{
+	float: left;
+	width: 150px;
+	height: 30px;
+	margin-left: 55px;
+	margin-top: 100px;
+	padding:5px;
+	border-radius: 5px;
+	background-color: #9CC2D4;
+	line-height: 40px;
+	text-align: center;
+	font-family: avenir;
+	font-size: 20px;
+}
+/*Opmaak zonder enige functie*/
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+/*Opmaak als over het menu wordt gehoverd*/
+nav ul li a:hover{
+	background-color: #1C9395;
+	color: white;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 5px;
+	line-height: 40px;
+	margin-left:-5px;
+	margin-top: -5px;
+}
+/*Opmaak zonder hover uitklapmenu niet zichtbaar*/
+nav ul li ul li{
+	display: none;
+}
+
+/*Opmaak hoverfunctie menubalk*/
+nav ul li:hover ul li{
+	display: block;
+	margin-left: -5px;
+	margin-top: 10px;

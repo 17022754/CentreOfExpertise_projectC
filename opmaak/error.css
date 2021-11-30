@@ -1,0 +1,71 @@
+/*Opmaak van de navigatieweg, breadcrumbs*/
+#opmaakbreadcrumbs{
+	background-color: #1C9395;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.breadcrumbs{
+	font-family: avenir;
+	font-size: 20px;
+	padding: 5px;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+ul {
+	list-style: none;
+}
+
+li a{
+	text-decoration-line: none;
+	color: white;
+}
+
+ul li a:hover{
+	color: ##9CC2D4;
+}
+
+/*Opmaak van het blok waar de content van het errorbericht in staat*/
+#errorblock{
+  width: 900px;
+  height: 350px;
+  margin-left: 260px;
+  margin-right: 260px;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+
+h1{
+	font-family: avenir;
+	font-size: 48px;
+	text-align: center;
+	color:#037367;
+
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 20px;
+	text-align-last: center;
+	color:#037367;
+	margin-bottom: 90px;
+}
+
+/*Opmaak button terug naar home*/
+#button{
+	background-color: #1C9395;
+	color: white;
+	border:none;
+	padding:10px;
+	text-decoration-line: none;
+	border-radius:5px;
+	margin-left: 300px;
+}
+
+
+
+

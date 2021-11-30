@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
+/*Opmaak van de breadcrumbs*/
+#opmaakbreadcrumbs{
+	background-color: #1C9395;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.breadcrumbs{
+	font-family: avenir;
+	font-size: 20px;
+	padding: 5px;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+ul {
+	list-style: none;
+}
+
+li a{
+	text-decoration-line: none;
+	color: white;
+	margin:0px;
+}
+
+ul li a:hover{
+	color: #9CC2D4;
+}
+
+/*Opmaak van de afbeelding en de slogan van de Haagse hogeschool*/
+.afbeeldingmettekst{
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.sloganhaagse {
+  position: absolute;
+  top: 470px;
+  margin-right: 290px;
+  margin-left: 290px;
+  color:white;
+  font-family: avenir;
+  font-size: 48px;
+}
+
+/*Opmaak afbeelding van onderzoeksthema met uitleg van het onderzoeksthema*/
+.afbeeldingmetuitlegonderzoek{
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.onderzoeksthema {
+  position: absolute;
+  top: 0px;
+  margin-right: 500px;
+  margin-left: 500px;
+  color:white;
+  font-family: avenir;
+  font-size: 48px;
+}
+
+.onderzoek{
+	position: absolute;
+	top: 100px;
+	margin-right: 440px;
+	margin-left: 440px;
+	color: white;
+	font-family: helvetica;
+	font-size: 28px;
+}
+
+.uitlegonderzoek{
+	position: absolute;
+	top: 350px;
+	margin-right: 100px;
+	margin-left: 900px;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+
+/*Opmaak van alle h1 koppen*/
+h1{
+	font-family: avenir;
+	font-size: 48px;
+	color:#1C9395;
+	margin: 0px;
+	margin-left: 40px;
+}
+
+/*Opmaak van alle h2 koppen*/
+h2{
+	font-family: helvetica;
+	font-size: 28px;
+	color:#6C8289;
+	margin-left: 40px;
+}
+
+/*Opmaak van het lectoraat: Revalidatie*/
+.tekstlinks{
+	width: 850px;
+	height: 450px;
+	float: left;
+	margin-left: 40px;
+	margin-top:40px;
+}
+
+.opmaak{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-right:100px;
+	padding-right: 100px;
+	margin-bottom: 50px;
+}
+
+/*Opmaak van het lectoraat: Technologie for health*/
+.afbeeldingrechts{
+	width:450px;
+	height: 450px;
+	float: right;
+	margin-right: 100px;
+	margin-top:40px;
+}
+
+.buttonleft{
+	background-color: #1C9395;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-family: avenir;
+	font-size:14px;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 10px;
+	margin-left: 200px;
+}
+
+.tekstrechts{
+	width: 850px;
+	height: 450px;
+	float: right;
+	margin-right: 40px;
+	margin-top:40px;
+}
+
+.opmaak2{
+	margin-top: 60px;
+	margin-left: 200px;
+	
+}
+
+.opmaak3{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	margin-right: 40px;
+	margin-left:200px;
+	margin-bottom: 50px;
+	
+}
+
+.afbeeldinglinks{
+	width:450px;
+	height: 450px;
+	float: left;
+	margin-left: 100px;
+	margin-top:40px;
+}
+
+.buttonright{
+	background-color: #1C9395;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-family: avenir;
+	font-size:14px;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 10px;
+	margin-left: 400px;
+}
+
+/*Opmaak van de lectoren*/
+#lectoren{
+	height: 850px;
+	width: 650px;
+	background-color: #929BA2;
+	float: left;
+	margin-top: 50px;
+	margin-left: 40px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+}
+
+.lectorlinks{
+	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+
+.lectorrechts{
+	float: right;
+	margin-right: 40px;
+	margin-top: 15px;
+}
+
+/*Opmaak van de toekomstige evenementen */
+#evenementen{
+	height: 850px;
+	width: 650px;
+	background-color: #929BA2;
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+}
+
+h3{
+	font-family: helvetica;
+	font-size: 16px;
+	color:white;
+}
+
+.opmaakh3{
+	font-family: helvetica;
+	color:#1C9395;
+	font-size:18px;
+	padding:40px;
+	padding-top:10px;
+	padding-bottom: 0px;
+}
+
+.opmaakp{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	color:white;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+#opmaakp{
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 10px;
+	color:white;
+	font-family: 'Cormorant Garamond', serif;
+	margin-bottom: 70px;
+}
+
+.buttonevenement{
+	background-color: #1C9395;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-family: avenir;
+	font-size:14px;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 10px;
+	margin-left:220px;
+	margin-right: 220px;
+}
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+/*Opmaak navigatieweg gebruiker, breadcrumbs*/
+#opmaakbreadcrumbs{
+	background-color: #1C9395;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+ul.opmaakbreadcrumbs {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumbs li {
+  display: inline;
+  font-family: avenir;
+  font-size: 18px;
+}
+ul.breadcrumbs li+li:before {
+  padding: 8px;
+  color: white;
+  content: "/\00a0";
+}
+ul.breadcrumbs li a {
+  color: white;
+  text-decoration: none;
+}
+ul.breadcrumbs li a:hover {
+  color:#1C9395;
+  text-decoration: underline;
+}
+
+.color{
+  font-family: avenir;
+  font-size: 18px;
+  color: #C1C5CE;
+}
+/* Opmaak border bevestigingblok*/
+#bevestigingborder{
+  background-color: #C1C5CE;
+  width: 900px;
+  height: 350px;
+  margin-left: 260px;
+  margin-right: 260px;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+/*Opmaak h2*/
+h2{
+  font-family: helvetica;
+  font-size: 28px;
+  font-style: bold;
+  color:#1C9395;
+  text-align: center;
+}
+
+/*opmaak button */
+#button{
+  background-color: #1C9395;
+  color: white;
+  border:none;
+  padding:10px;
+  text-decoration-line: none;
+  border-radius:5px;
+  margin-left: 380px;
+}
+
+
+
+
+
+
+
+
+

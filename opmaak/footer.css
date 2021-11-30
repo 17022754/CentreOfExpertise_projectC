@@ -1,0 +1,73 @@
+#footer{
+	height: 450px;
+	width: 100%;
+	opacity: .8;
+	background-color: #1C9395;
+	margin-top: 50px;
+	border-radius: 5px;
+	float: left;
+}
+
+.footer{
+	height: 350px;
+	width: 350px;
+	margin-left: 8px;
+	margin-top: 20px;
+	float: left;
+}
+
+#footer h3{
+	font-family: helvetica;
+	font-size:20px;
+	color:#929BA2;
+	text-align: center;
+}
+
+#footer p{
+	width: 300px;
+	margin-left: 20px;
+	color:white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 16px;
+}
+
+.haagsehogeschoollink{
+	text-decoration: none;
+	color:#C1C5CE;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.opmaaklink{
+	text-decoration: none;
+	color:white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	margin-left: 140px;
+	padding-bottom: 100px;
+	white-space: pre;
+
+}
+
+.linksnaarnieuws{
+	color:white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 16px;
+	text-align-last: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	white-space: pre;
+}
+
+.iconopmaak{
+	padding-left: 80px;
+	margin-top: 40px;
+}
+
+h4{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	color:white;
+	text-align-last: center; 
+}
